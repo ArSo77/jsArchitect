@@ -20,5 +20,6 @@ function product(a, b) {
             return a * b;
         };
     }
-}console.log(product(4, 5)); // 20
+}
+console.log(product(4, 5)); // 20
 console.log(product(4)(5)); // 20
