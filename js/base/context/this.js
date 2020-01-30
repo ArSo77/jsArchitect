@@ -10,3 +10,7 @@ theFunction("John", "fireman");
 theFunction.apply(undefined, ["Susan", "school teacher"]);
 theFunction.call(undefined, "Claude", "mathematician");
 theFunction.call(undefined, ...["Matthew", "physicist"]); // used with the spread operator
+
+
+let bound = theFunction.bind(undefined)
+bound()
