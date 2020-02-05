@@ -3,17 +3,22 @@ https://crosp.net/blog/software-architecture/clean-architecture-part-2-the-clean
 
 
 
+https://refactoringui.com/
 
 
 
+https://www.youtube.com/channel/UCCUkk1ccUYgxYORcLUGAmeQ/videos
+Krzysztof Furtak
+
+
+//PWA
+https://dev.to/thisdotmedia/intro-to-pwa-and-service-workers-15d4
+https://dev.to/fullstackcafe/22-pwa-interview-questions-every-developer-should-know-in-2020-3jfm
 
 
 
-
-
-
-
-
+//BATTERY
+https://medium.com/swlh/detecting-battery-status-in-javascript-732f724b2cc2
 
 
 
