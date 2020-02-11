@@ -8,20 +8,6 @@ class Klasa{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class Prostokat {
     constructor(wysokosc, szerokosc) {
         this.wysokosc = wysokosc;
