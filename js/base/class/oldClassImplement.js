@@ -3,12 +3,6 @@
 
 
 
-
-
-
-
-
-
 function Person(name) {
     let age = 20; // this is private
     this.name = name; // this is public

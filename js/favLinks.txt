@@ -26,3 +26,4 @@ https://medium.com/swlh/detecting-battery-status-in-javascript-732f724b2cc2
 
 
 https://www.youtube.com/watch?v=7VleDXN_obE
+https://przeprogramowani.pl/kurs-javascript/
