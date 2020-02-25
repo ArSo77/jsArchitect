@@ -2,7 +2,7 @@
 
 
 function theFunction(name, profession) {
-    console.log("My name is " + name + " and I am a " + profession +".");
+    console.log("My name is " + name + " and I am a " + profession + ".");
 }
 // theFunction.apply(valueForThis, arrayOfArgs)
 // theFunction.call(valueForThis, arg1, arg2, ...)
@@ -14,3 +14,7 @@ theFunction.call(undefined, ...["Matthew", "physicist"]); // used with the sprea
 
 let bound = theFunction.bind(undefined)
 bound()
+
+
+
+
