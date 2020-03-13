@@ -14,6 +14,9 @@ const user1 = userCreator("AAA", 123)
 
 
 
+
+
+
 // 2
 function userCreator2(name, score) {
     this.name = name;
@@ -24,6 +27,9 @@ userCreator2.prototype.increment = function () {
     this.score++;
 }
 const user2 = new userCreator2("BBB", 456)
+
+
+
 
 
 

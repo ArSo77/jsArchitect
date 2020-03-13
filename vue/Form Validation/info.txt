@@ -1,5 +1,3 @@
-
-
 Different Validation Plugin Styles
 
 1. Markup-based (vee-validate)
