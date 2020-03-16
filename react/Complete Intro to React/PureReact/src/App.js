@@ -1,15 +1,31 @@
-import React from "react";
+import React, {useState} from "react";
 import { render } from "react-dom";
+import { Router, Link } from "@reach/router";
 import Pet from "./Pet";
 import SearchParams from "./SearchParams";
+import Details from "./Details";
+import ThemeContext from './ThemeContext';
+
+
 
 const App = () => {
-  return(
-      <div>
-        <h1 id="something-important">Adopt me!</h1>
-          <SearchParams />
+  const themeHook = useState('peru');
+  console.log(themeHook[0])
+
+
+  return (
+  <ThemeContext.Provider value={themeHook}>
+        <div>
+        <header>
+          <Link to="/">Adopt me!</Link>
+        </header>
+        <Router>
+          <SearchParams path="/" />
+          <Details path="/details/:id" />
+        </Router>
       </div>
-  )
+      </ThemeContext.Provider>
+    );
 };
 
 render(React.createElement(App), document.getElementById("root"));
