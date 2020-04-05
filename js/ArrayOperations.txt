@@ -1,0 +1,24 @@
+Summary
+toString() converts an array to a string separated by a comma.
+join() combines all array elements into a string.
+concat combines two arrays together or add more items to an array and then return a new array.
+push() adds item(s) to the end of an array and changes the original array.
+pop() removes the last item of an array and returns it
+shift() removes the first item of an array and returns it
+unshift() adds an item(s) to the beginning of an array and changes the original array.
+splice() changes an array, by adding, removing and inserting elements.
+slice() copies a given part of an array and returns that copied part as a new array. It does not change the original array.
+split() divides a string into substrings and returns them as an array.
+indexOf() looks for an item in an array and returns the index where it was found else it returns -1
+lastIndexOf() looks for an item from right to left and returns the last index where the item was found.
+filter() creates a new array if the items of an array pass a certain condition.
+map() creates a new array by manipulating the values in an array.
+reduce() calculates a single value based on an array.
+forEach() iterates through an array, it applies a function on all items in an array
+every() checks if all items in an array pass the specified condition and return true if passed, else false.
+some() checks if an item (one or more) in an array pass the specified condition and return true if passed, else false.
+includes() checks if an array contains a certain item.
+
+
+Changes:
+unshift()<->push(), splice()
