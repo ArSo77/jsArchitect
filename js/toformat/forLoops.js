@@ -1,5 +1,5 @@
 // Use for…of to iterate over the values in an iterable, like an array for example:
-let animals = ['a','b','c','d'];
+let animals = ['a', 'b', 'c', 'd'];
 let names = ['Gertrude', 'Henry', 'Melvin', 'Billy Bob'];
 
 for (let animal of animals) {
